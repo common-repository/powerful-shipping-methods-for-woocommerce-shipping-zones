@@ -1,0 +1,100 @@
+.right {
+    float:right;
+}
+
+.distance-row {
+    border:2px solid #aaa;
+    border-radius:6px;
+    padding:6px;
+    margin-bottom:10px;
+}
+
+#distance-shipping-rate input {
+    max-width:50px;
+}
+
+.distance-rate-error {
+    color: #f00;
+}
+
+#distance-rates .numeric {
+    width:70px;
+}
+
+#distance-rates table.form-table th {
+    padding-right:0px;
+}
+
+.row-container input {
+    max-width:50px;
+}
+
+.row-container select {
+    width:150px;
+}
+
+.remove-distance-rate {
+    float:right;
+}
+
+.add-distance-rate {
+    width:400px;
+    text-align:center;
+}
+
+.conditions-and-costs {
+    display:inline-block;
+}
+
+.hide-advanced-rule-settings, .show-advanced-rule-settings {
+    float: right;
+    clear: both;
+}
+
+.hide-advanced-rule-settings, .advanced-rule-settings {
+    display:none;
+}
+
+.shipping_error_message_rules .rule-cost,
+.shipping_error_message_rules .rule-starting-from,
+.shipping_error_message_rules .rule-fee-row,
+.shipping_error_message_rules .combine-rules {
+    display:none;
+}
+
+#rules textarea {
+    width:100%;
+}
+
+.wp-admin .woocommerce select {
+    height:auto;
+}
+
+.wp-admin .wc-modal-shipping-method-settings form .form-table tr td input,
+.wp-admin .wc-modal-shipping-method-settings form .form-table tr td select, 
+.wp-admin .wc-modal-shipping-method-settings form .form-table tr td textarea {
+    width:auto;
+    min-width:50%;
+}
+
+.add-new-rule-calculation-variable-html, .rule-calculation-wrapper .rule-calculation-variable-number-wrapper {
+    display:none;
+}
+
+.rule-calculation-wrapper div {
+    display:inline;
+}
+
+.woocommerce table.form-table .rule-calculation-wrapper select[name*="[middle][value]"] {
+    width:50px;
+}
+
+.woocommerce table.form-table input[type=number].rule-calculation-variable-number,
+.woocommerce table.form-table .rule-calculation-wrapper select[name*="[left][value]"],
+.woocommerce table.form-table .rule-calculation-wrapper select[name*="[right][value]"] {
+    width:100px;
+}
+
+.use-distance-hidden {
+    display:none !important;
+}
